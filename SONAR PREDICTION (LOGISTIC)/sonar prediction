@@ -1,1 +1,46 @@
 SONAR ROCK VS MINE PREDICTION (BINARY SUPERVISED LEARNING)
+
+🪨 Sonar Mine vs Rock Prediction using Logistic Regression
+This project focuses on building a Machine Learning model to classify objects as either mines or rocks based on sonar signals. The dataset contains 60 features representing sonar energy readings at various angles, which are used to train a Logistic Regression classifier.
+
+🔍 Project Objective
+To develop a binary classification model that can distinguish between sonar signals bounced off a metal cylinder (mine) or a rock using Logistic Regression, one of the most interpretable and widely used classification algorithms.
+
+📂 Dataset
+Source: https://drive.google.com/file/d/1pQxtljlNVh0DHYg-Ye7dtpDTlFceHVfa/view?usp=sharing
+Description: 208 samples with 60 numerical attributes (range-based sonar signal values).
+
+Target classes:
+R = Rock
+M = Mine
+
+🛠️ Tools & Technologies Used
+1.Python 
+2.NumPy
+3.Pandas
+4.Sklearn
+
+🔄 Workflow
+1.Load Dataset
+  Load and inspect the dataset, check for nulls or inconsistencies.
+
+2.Data Preprocessing
+  Encode categorical labels (R, M) into numerical format.
+  Normalize or scale features if needed.
+
+3.Train-Test Split
+  Split data into training and test sets (e.g., 80/20 ratio).
+
+4.Model Training
+  Train a Logistic Regression model on the training data.
+
+5.Evaluation
+  Use accuracy, confusion matrix, precision, recall, and F1-score.
+  Evaluate using test data to ensure generalization.
+
+6.Prediction
+  Allow user input to test custom sonar readings and predict the output class.
+
+📈 Results
+Achieved a good level of accuracy on unseen data.
+Demonstrated clear separation between classes using logistic regression.
